@@ -1,0 +1,485 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* FONT FAMILY */
+@font-face{
+    font-family: 'Muslish-regular';
+    src: url(/assets/font/Mulish-Regular.ttf);
+}
+@font-face{
+    font-family: 'Muslish-extraBold';
+    src: url(/assets/font/Mulish-ExtraBold.ttf)
+}
+@font-face{
+    font-family: 'Muslish-medium';
+    src: url(/assets/font/Mulish-Medium.ttf)
+}
+
+/*  BODY */
+body{
+    background-color: #000 !important;
+    font-family: 'Muslish-regular'!important ;
+    color: #fff !important;
+    font-size: 10px !important;
+}
+
+/* NAVEGADOR VISTA DESKTOP */
+nav{
+    font-size: 15px !important;
+}
+
+.logo{
+    color: #d9ed92;
+}
+
+.btn-secondary{
+    font-size: 12px !important;
+}
+
+.btn-search{
+    color: #76c893 !important;
+    border: 1px solid #76c893 !important;
+}
+
+.btn:hover{
+    background: #76c893 !important;
+    color: #fff !important;
+}
+
+
+/* SELECT VISTA DESKTOP */
+.boxSelect{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+    background: #343a40;
+    border-top: 1px solid #76c893;
+    margin-bottom: 20px;
+}
+
+.boxSelect select{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.container-carousel{
+    height: 900px;
+    display: flex;
+    align-items: center;
+    background: #000;
+
+}
+
+.carousel-bg{
+    background-color: #000 !important;
+}
+
+/* GIF DE CARGA */
+.containerGif{
+    height: 100%;
+}
+
+/* CARD PRODUCTOS VISTA DESKTOP */
+.productos{
+    margin-bottom: 10px;
+}
+
+.desc10{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #a4133c;
+    left: 245px;
+    top: -15px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.card{
+    border-radius: 20px !important;
+    background: #343a40 !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    height: 395px;
+    width: 340px;
+}
+
+.box-img img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.card-body{
+    height: 320px !important;
+    padding: auto !important;
+    line-height: 15px;
+    margin-bottom: 10px !important;
+}
+
+.card-bodyMobile{
+    display: none;
+}
+
+.card-title{
+    font-family: 'Muslish-extraBold';
+    color: #b5e48c !important;
+    font-size: 1.2rem !important;  
+}
+
+.card-text{
+    font-size: 10px;
+}
+
+.precioSinDescuento{
+    color: #a4133c !important;
+    text-decoration: line-through;
+    font-size: 14px;
+    
+}
+
+.text-precio{
+    font-family: 'Muslish-medium';
+    font-weight: bold;
+    color: #52b69a;
+    font-size: 12px;
+}
+
+.btn-container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.btn-secondary{
+    border-radius: 10px !important;
+    height: 40px;
+}
+
+.box-carrito{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* CARRITO DE COMPRAS VISTA DESKTOP */
+/* CARRITO NAVEGADOR VISTA DESKTOP */
+.carrito{
+    margin-right: 15px;
+    padding-top: 7px;
+    border-radius: 10%;
+    font-size: 20px;
+    color: #6c757d;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 1px;
+    padding-bottom: 3px;
+}
+
+.carrito:hover{
+    color: #76c893;
+}
+
+#contadorCarrito{
+    font-size: 10px;
+    background: red;
+    border-radius: 100%;
+    color: #fff;
+    padding: 3px;
+    position: relative;
+    right: 5px;
+    top: -11px;
+}
+
+/* CONTENEDOOR CARRITO VISTA DESKTOP */
+.card-carrito{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 0%;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    align-items: center;
+}
+tr{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+.td-nombre{
+    width: 35%;
+}
+.td-cantidad{
+    width: 30%;
+}
+.td-precio{
+    width: 30%;
+}
+.td-btn{
+    width: 5%;
+}
+
+
+.offcanvas{
+    background-color: #212529 !important;
+}
+
+.offcanvas-header{
+    background: linear-gradient(to right, #76c893, #52b69a);
+    height: 50px;
+}
+
+.carrito-title{
+    font-family: 'Muslish-medium' !important;
+    font-size: 14px;
+    color: #1e6091!important;
+    text-transform: uppercase;
+    padding-top: 12px;
+    font-weight: bold !important;
+}
+
+.text-productoCarrito{
+    font-size: 10px !important;
+    color: #52b69a !important;
+}
+
+.text-precioCarrito{
+    font-family: 'Muslish-extraBold';
+    font-size: 10px;
+    font-weight: bold;
+    color: #52b69a !important;
+}
+
+.boton-eliminar{
+    border: none;
+    background: none;
+    color: #6c757d;
+    font-size: 12px;
+    padding: 0%;
+}
+
+.boton-eliminar:hover{
+    color: #a4133c;
+}
+
+.precioProducto{
+    font-family: 'Muslish-extraBold';
+    font-size: 12px;
+    font-weight: bold;
+    color:  #1e6091;
+}
+
+#btnVaciar{
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+
+#btnVaciar:hover{
+    background: #a4133c !important;
+
+}
+
+#btnComprar{
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+
+#btnComprar:hover{
+    background: #4361ee !important;
+}
+
+
+/* FOOTER VISTA DESKTOP */
+footer{
+    background: #000;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+}
+
+footer h3{
+    margin-bottom: 20px;
+}
+
+.logoFooter{
+    color: #fff !important;
+}
+
+.footerRedes{
+    color: #fff;
+    font-size: 18px !important;
+
+}
+
+.footerContacto{
+    color: #fff;
+    font-size: 18px !important;
+
+}
+
+.fa-envelope{
+    font-size: 28px;
+    color: #76c893;
+}
+.fa-whatsapp{
+    font-size: 28px;
+    color:#76c893;
+}
+.fa-instagram{
+    font-size: 28px;
+    color:#76c893;
+    margin-right: 5px;
+}
+.fa-facebook-square{
+    font-size: 28px;
+    color: #76c893;
+}
+
+.copyR{
+    margin-top: 20px;
+    color: #fff;
+}
+/* ----------------VISTA MOBILE---------------- */
+
+@media only screen and (min-width: 0px) and (max-width: 700px){
+
+/* CARROUSEL VISTA MOBILE */    
+.container-carousel{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background: #000;
+}
+    
+/* CARRITO NAVEGADOR VISTA MOBILE */
+.carrito{
+    margin-right: 15px;
+    padding-top: 7px;
+    font-size: 18px;
+    border: none !important;
+    color: rgb(25, 230, 140);
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 1px;
+    padding-bottom: 3px;
+    width: 45px;
+}
+
+/* GIF DE CARGA VISTA MOBILE */
+.containerGif{
+    height: 1000px;
+}
+.gifCarga{
+    width: 200px;
+    height: 200px;
+}
+
+/* CARD MOSTRAR PRODUCTOS VISTA MOBILE */
+.productos{
+    margin-bottom: 10px;
+}
+
+.card{
+    border-radius: 20px !important;
+    background: #343a40 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    height: 235px;
+    width: 160px;
+    display: block;
+}
+
+.desc10{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #a4133c;
+    left: 245px;
+    top: -15px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.box-img img{
+    position: relative;
+    width: 65px;
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+.card-body{
+    display: none;
+}
+
+.card-bodyMobile{
+    display: inline;
+}
+
+.cardMobile{
+    height: 100px;
+}
+
+.card-title{
+    font-family: 'Muslish-extraBold';
+    color: #b5e48c !important;  
+    font-size: 0.9rem !important;  
+    margin-bottom: 10px;
+}
+.card-text{
+    font-size: 8px !important;
+}
+.precioSinDescuento{
+    color: #a4133c !important;
+    text-decoration: line-through;
+    font-size: 8px;
+    margin-right: 5px;
+}
+
+.text-precio{
+    font-family: 'Muslish-medium';
+    font-weight: bold;
+    color: #52b69a;
+    font-size: 10px;
+}
+
+.btn-container{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-secondary{
+    border-radius: 10px !important;
+    height: 30px;
+    font-size: 8px !important;
+}
+
+.box-carrito{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+}
+
+
